@@ -1,0 +1,198 @@
+/*
+   Smoked to the Bone Base Style Sheet
+   
+
+      Author:     Adam Bossi
+      Date:       12/8/2018
+      
+      filename:   main.css
+      
+      Supporting Files:
+*/
+/* Display HTML5 Structural Items as blocks */
+article, aside, figure, figcaption, footer, hgroup,
+header, nav, section, body, div{
+   display: block;
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+/* Whole page background image */
+html {
+   background-image: url("../Images/background.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+
+/* Set the default page element styles */
+body {
+   margin: 0px auto;
+   width: 800px;
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 100%;
+   font-weight: inherit;
+   line-height: 1.2em;
+   padding: 1%;
+   vertical-align: baseline;
+}
+
+/* Navigation Links */
+nav {
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+}
+nav ul {
+   list-style: none;
+   margin-top: 1px;
+}
+
+nav li {
+   float: left;
+   width: 19%;
+   text-align: center;
+   border: 1px solid rgb(208,44,51);
+   margin: 5px 2px 15px 2px;
+}
+
+nav li a {
+   display: block;
+   color: rgb(208,44,51);
+   text-decoration: none;
+   background-color: white;
+}
+
+nav li a:hover {
+   color: white;
+   background-color: rgb(208,44,51);
+}
+/* Main Section Styles */
+section {
+   -o-background-size: contain;
+   -moz-background-size: contain;
+   -webkit-background-size: contain;
+   background-size: contain;
+   padding: 1em;
+   margin: auto;
+   overflow: auto;
+}
+article {
+   float: top;
+   clear: both;
+   width: auto;
+   border-top: 2px solid rgb(208,44,51);
+}
+
+.left {
+   float: left;
+   width: 40%;
+   height: auto;
+}
+
+.right {
+   float: right;
+   width: 58%;
+   height: auto;
+}
+
+aside img {
+   float: right;
+}
+
+/* h1, h2, p */
+h1 {
+   font-size: 20px;
+   font-weight: normal;
+   letter-spacing: 3px;
+   color: rgb(208,44,51);
+   margin-top: 10px;   
+   font-weight: bold;
+   text-shadow: 1px 1px dimgray;
+}
+
+h2 {
+   font-size: 14px;
+   font-weight: bold;
+   color: rgb(208,44,51);
+   margin-top: 10px;  
+   text-shadow: 1px 1px dimgray;   
+}
+h3 {
+   font-size: 12px;
+   font-weight: bold;
+   color: rgb(208,44,51);
+   margin: 0px 5px; 
+
+}   
+
+#hours {
+   margin-left: 1em;
+   font-size: 12px;
+   font-weight: normal;
+   list-style: none;
+   padding-left: 5px;
+}
+#hours li {
+   margin-left: 2em;
+}
+
+p {
+   font-size: 13px;
+   margin: 7px;
+}
+
+footer {
+   border-top: 2px solid rgb(208,44,51);
+   clear: both;
+   float: left;
+   width: 100%;
+}
+
+address {
+   font-style: normal;
+   font-size: 10px;
+   text-align: center;
+   padding: 5px;
+   font-weight: bold;
+}
+
+/* Image Styles */
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	display: block;
+   padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

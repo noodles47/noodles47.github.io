@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Smoked To The Bone BBQ - Template</title>
+      <!--
+         Smoked To The Bone BBQ Restuarant - template page
+         Filename: template.html
+      
+         Author:   Adam Bossi
+         Date:     12/8/2018
+         IS139 Final Project
+		 
+		 Supporting Files:
+			index.html
+			menu.html
+			aboutUs.html
+         contactUs.html
+			catering.html
+			
+			main.css
+			modernizr.custom.40753.js
+			
+			logo.png
+			favicon.ico
+      -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="Asset/js/modernizr.custom.40753.js"></script>
+      <link rel="stylesheet" href="Assets/Styles/main.css">
+      <link rel="shortcut icon" href="Assets/Images/favicon.png">
+	</head>
+	<body>
+      <div class="container"> 
+         <header>
+            <a href="index.html"><img src="Assets/Images/logo.png" alt="Smoked to the Bone BBQ" width="800" height="200"></a>
+         </header>
+         <nav class="sitenavigation">
+            <ul>
+               <li class="currentpage"><a href="index.html">Home</a></li>
+               <li><a href="aboutUs.html">About Us</a></li>
+               <li><a href="menu.html">Menu</a></li>
+               <li><a href="contactUs.html">Contact Us</a></li>
+               <li><a href="catering.html">Catering</a></li>
+            </ul>
+         </nav>
+         <section id="main">
+            <h1>Thank you for your comments!</h1>
+            <h2>Here's a summary of what you said:</h2>
+         
+            <script>
+                var formData = location.search;
+                formData = formData.substring(1, formData.length);
+                while (formData.indexOf("+") !== -1) {
+                   formData = formData.replace("+", " ");
+                }
+                formData = decodeURIComponent(formData);
+                var formArray = formData.split("&");
+                for (var i = 0; i < formArray.length; i = i + 1) {
+                   document.write("<p>" + formArray[i] + "</p>");
+                }
+            </script>
+         </section>
+         <footer>
+            <address>
+               Smoked to the Bone BBQ &#183;
+               309 N. Front St. &#183;
+               Iuka, IL 62849 &#183;
+               (618) 323 - 4115 &#183;
+            </address>
+         </footer>
+      </div>
+   </body>
+</html>

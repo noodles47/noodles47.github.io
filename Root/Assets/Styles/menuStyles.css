@@ -1,0 +1,59 @@
+/*
+   Smoked to the Bone Base Style Sheet
+   
+
+      Author:     Adam Bossi
+      Date:       12/8/2018
+      
+      filename:   tableStyles.css
+      
+      Supporting Files:
+*/
+section {
+   border: 2px solid rgb(208,44,51);
+   background-color: ivory;
+   margin-bottom: 5px;
+}
+
+h2 {
+   margin-left: 10px;
+}
+
+.menuBlock {
+   font-size: 1.1em;
+   border-collapse: collapse;
+   border: 4px double rgb(208,44,51);
+   margin: auto;
+   width: 99%;
+}
+table {
+   margin: 2%;
+   width: 96%;
+   border-collapse: collapse;
+}
+caption {
+   text-align: left;
+   font-size: 14px;
+   font-weight: bold;
+   color: rgb(208,44,51);
+   margin: 3px;  
+   text-shadow: 1px 1px dimgray;   
+}
+.details {
+   font-size: .75em;
+   margin: 4px;
+   color: black;
+   text-shadow: none;
+   font-weight: normal;
+}
+tr:nth-child(even) {
+   background-color: rgba(208,44,51,0.25);
+}
+
+tr td:nth-of-type(2) {
+   text-align: right;
+}
+#sides {
+   text-align: center;
+}
+   

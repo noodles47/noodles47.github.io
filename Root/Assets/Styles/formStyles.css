@@ -1,0 +1,112 @@
+/*
+   Smoked to the Bone Base Style Sheet
+   
+
+      Author:     Adam Bossi
+      Date:       12/8/2018
+      
+      filename:   formStyle.css
+      
+      Supporting Files:
+*/
+
+/* Fieldset Styles */
+fieldset {
+   background-color: ivory;
+   float: left;
+   margin: 10px 0px;
+   width: 95%;
+	border: 2px solid rgb(208,44,51);
+	padding: 2%;
+	margin-bottom: 0.8em;
+}
+.submitbutton {
+	border: 0;
+	text-align: center;
+}
+/* Field Styles */
+input, textarea {
+	border: 1px solid rgb(208,44,51);
+	padding: 0.2em;
+	font-size: 0.8em;
+   margin: 0.2em;
+   font-family: inherit;
+}
+.contactus input {
+	left: 6em;
+}
+#fNameInput, #lNameInput, #emailAddrInput {
+	width: 95%;
+}
+#phoneInput {
+	width: 95%;
+}
+#commentsInput {
+	width: 98%;
+	display: block;
+   resize: none;
+}
+#submit {
+	border: 1px solid rgb(208,44,51);
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: #c8f098;
+	border-radius: 0.5em;
+}
+#subscribeInput {
+   float: left;
+   clear: none;
+   width: 25px;
+}
+/* Label Styles */
+label {
+	font-size: 1.2em;
+}
+.contactinfo label {
+	display: block;
+	position: relative;
+	margin: 1em 0;
+}
+
+label[for="subscribeInput"] {
+	margin: 2em;
+   font-size: 0.75em;
+   clear: none;
+   width: auto;
+}
+
+
+/* button styles */
+input[type="submit"] {
+   float: right;
+}
+input[type="reset"] {
+   float: left;
+}
+input[type="submit"], input[type="reset"] {
+   height: 40px;
+   margin-right: 20px;
+   width: 200px;
+   border-radius: 5px;
+}
+
+/* Validation Styles */
+input:focus, select:focus {
+   background-color: rgb(231,231,255);
+}
+
+input:focus:valid {
+   background: rgb(220,255,220);
+   -o-background-size: contain;
+   -moz-background-size: contain;
+   -webkit-background-size: contain;
+   background-size: contain;
+}
+
+input:focus:invalid {
+   background: rgb(220,255,220);
+   -o-background-size: contain;
+   -moz-background-size: contain;
+   -webkit-background-size: contain;
+   background-size: contain;
+}
